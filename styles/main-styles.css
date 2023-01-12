@@ -1,0 +1,172 @@
+/*
+Conor, Pat, Regina
+SDEV328 AMD
+main-styles.css
+*/
+/*This is the styling page for our site.*/
+/* bootstrap overrides: add #overrideBootstrap prior to the class you may want to overrider*/
+/* brought to you by this: https://stackoverflow.com/questions/20721248/how-can-i-override-bootstrap-css-styles */
+#overrideBootstrap .btn-outline-success:hover {
+    color: black;
+}
+
+#overrideBootstrap .form-control {
+    background-color: white;
+}
+
+#overrideBootstrap .modal-content {
+    background-color: #fcf3f3;
+}
+
+/*id styles*/
+
+#overrideBootstrap {
+    width: 100%;
+}
+
+#resize-logo {
+    max-width: 8%;
+}
+
+#resize-logo-sm {
+    max-width: 15%;
+}
+
+#title {
+    color: white;
+}
+
+#forms-block, #make-admin-block, #fulfill-block, #delete-block, #answers-block, #select-table-block {
+    border-radius: 20px;
+    margin-right: 4rem;
+    margin-left: 4rem;
+}
+
+#forms-block, #forms-block *, #make-admin-block, #make-admin-block *,
+#fulfill-block, #fulfill-block *, #delete-block, #delete-block *, #answers-block, #answers-block *,
+#select-table-block , #select-table-block * {
+    background-color: #fcf3f3;
+}
+
+#newUser {
+    display: none;
+}
+
+#floatyCart {
+    position: absolute;
+    right: 100px;
+    bottom: 150px;
+    display: none;
+}
+
+#sessionInfo {
+    display: none;
+}
+
+#circle {
+    position: fixed;
+    font-size: 1.3rem;
+    bottom: 5%;
+    right: 2%;
+    background: #8cde78;
+    color: white;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+#newItemForms input, label {
+    display: block;
+}
+
+#newItemForms input[type=text], textarea {
+    width: 100%;
+}
+
+
+/*class styles*/
+
+.move {
+
+}
+
+.hiddenQClass {
+    display: none;
+}
+
+.tableChoices {
+    display: none;
+    background-color: white;
+    border: #aec7b0 5px solid;
+    padding: 15px;
+}
+
+.header-colour {
+    background-color: #aec7b0;
+}
+
+.sales-admin {
+    width: 100%;
+}
+
+.err {
+    color: red;
+}
+
+.js-err {
+    color: red;
+    display: none;
+}
+.userData {
+    background-color: #fff6ee;
+    border: #aec7b0 5px solid;
+}
+
+.hoverItems {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.hoverItems .hoverContent {
+    visibility: hidden;
+    width: 30%;
+    background-color: #66b060;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px;
+
+    /* Position the tooltip */
+    position: fixed;
+    right: 35%;
+    left: 35%;
+    top: 40%;
+    z-index: 1;
+}
+
+.hoverItems:hover .hoverContent {
+    visibility: visible;
+}
+
+.noliststyling {
+    list-style: none;
+}
+
+.hovercolor {
+    color: #1d2124;
+}
+
+.colors {
+    background-color: antiquewhite;
+}
+
+
+/*main styles*/
+
+body {
+    background-image: linear-gradient(90deg, white, #c4a68e);
+    overflow-x: hidden;
+}
+
+
