@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="79ecaa2e-8626-4c11-95dc-93a727b13f8a" name="AdvisingTool" url="https://ptagliavia.greenriverdev.com/">
+        <fileTransfer rootFolder="/home/ptagliav/public_html/AdvisingTool" accessType="SFTP" host="ptagliavia.greenriverdev.com" port="18765" sshConfigId="2e0007ad-f2c2-49ae-8b8e-92963c091484" sshConfig="ptagliav@ptagliavia.greenriverdev.com:18765 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
