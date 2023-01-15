@@ -25,10 +25,33 @@
          * This function routes to the home page.
          * @return void
          */
+        function AdvisingHome()
+        {
+            $views = new Template();
+            echo $views->render('views/AdvisingHome.html');
+            /*            $_SESSION['adminOrCusty'] = 0;
+                        //call modal method
+                        $this->modalOps();
+
+                        $rows = $GLOBALS['dataLayer']->getItems();
+                        $this->_f3->set('amdProducts', $rows);
+
+                        if(isset($_SESSION['sessionCart'])){
+                            $this->_f3->set('cartExists',true);
+                        }
+
+                        $views = new Template();
+                        echo $views->render('views/home.html');*/
+        }
+
+        /**
+         * This function routes to the home page.
+         * @return void
+         */
         function home()
         {
             $views = new Template();
-            echo $views->render('views/home.html');
+            echo $views->render('views/AdvisingHome.html');
 /*            $_SESSION['adminOrCusty'] = 0;
             //call modal method
             $this->modalOps();
